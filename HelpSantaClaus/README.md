@@ -23,7 +23,8 @@ the red region.
 Our gifts are in the bags, and we should distribute them to trains and reindeers
 according to the properties of the bag. You can consider that the same type of gifts is in
 the same bag, and we want to distribute them properly.
-Properties of bags are as follow, remark that one bag has more than one property
+
+Properties of bags are as follow, remark that one bag has more than one property:
 - a: Each of the gifts in this bag type should be distributed through different vehicles,
 i.e. there are no 2 gifts from the same bag on the same train or reindeer.
 - b: Each of the gifts in this bag type should only be distributed to green regions.
@@ -33,15 +34,15 @@ i.e. there are no 2 gifts from the same bag on the same train or reindeer.
 If it’s not specified, assume that gifts can be distributed to all regions, both by train
 and reindeer.
 
-Let’s look at some examples of bag types.
-- bd can be distributed only by trains which go to green regions
+Let’s look at some examples of bag types:
+- bd can be distributed only by trains which go to green regions.
 - ace can be distributed only by reindeers which go to red regions and there are
-no 2 gifts from this bag on the same reindeer
-- c can be distributed only to red regions, both by trains and reindeers
-- d can be distributed only by trains, to both the red and the green regions
-- a only constraint is that there are no 2 gifts from this bag on the same vehicle
-- bc invalid, it won’t be given as an input to you because it is a contradictory
-- de invalid, it won’t be given as an input to you because it is a contradictory
+no 2 gifts from this bag on the same reindeer.
+- c can be distributed only to red regions, both by trains and reindeers.
+- d can be distributed only by trains, to both the red and the green regions.
+- a only constraint is that there are no 2 gifts from this bag on the same vehicle.
+- bc invalid, it won’t be given as an input to you because it is a contradictory.
+- de invalid, it won’t be given as an input to you because it is a contradictory.
 
 
 
