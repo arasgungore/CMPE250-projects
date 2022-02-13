@@ -31,7 +31,7 @@ who cannot stay at any house.
 ## Input/Output Format
 
 
-### Inputs
+### Input
 
 The input will be given as a file argument. There are two types of input
 lines: house lines and student lines. The input lines will be in mixed order.
@@ -72,7 +72,7 @@ For students, if there are two students with ids 123 and 126 whose rating
 criterion holds for a house, the student with id 123 gets the house.
 
 
-### Outputs
+### Output
 
 Your program should end when the waiting student list is empty. The
 output of your program is the list of students that couldn’t stay at any of
