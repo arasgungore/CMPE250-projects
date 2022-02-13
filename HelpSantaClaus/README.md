@@ -1,6 +1,7 @@
 # Project 4: Help the Santa Claus!
 
 
+
 ## Introduction
 
 Hi, there! Firstly, thank you all in advance for helping me on distributing the gifts. But it
@@ -10,6 +11,7 @@ Claus Expresses and Santa Claus’s reindeers will help us but unfortunately, th
 carry gifts as much as their capacities. Therefore, in some cases, it will be impossible to
 deliver all gifts to their owners. At this point, I need your help. Can you help me to figure
 out the minimum number of gifts that can’t be delivered?
+
 
 
 ## Details
@@ -28,7 +30,7 @@ i.e. there are no 2 gifts from the same bag on the same train or reindeer.
 - c. Each of the gifts in this bag type should only be distributed to red regions.
 - d. Each of the gifts in this bag type should only be distributed by train.
 - e. Each of the gifts in this bag type should only be distributed by reindeer.
-If it’s not specified, assume that gifts can be distributed to all regions, and both by train
+If it’s not specified, assume that gifts can be distributed to all regions, both by train
 and reindeer.
 
 Let’s look at some examples of bag types.
@@ -42,7 +44,9 @@ no 2 gifts from this bag on the same reindeer
 - de invalid, it won’t be given as an input to you because it is a contradictory
 
 
+
 ## Input/Output
+
 
 ### Input
 
@@ -59,7 +63,8 @@ no 2 gifts from this bag on the same reindeer
     to the red region.
 - The eighth line will give the capacities of each of these reindeers.
 - The ninth line represents the number of bags.
-- The tenth line will give the type of bags and number of gifts in it.
+- The tenth line will give the type of bags and the number of gifts in them.
+
 
 ### Output
 
