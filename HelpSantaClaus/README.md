@@ -50,20 +50,20 @@ no 2 gifts from this bag on the same reindeer
 
 ### Input
 
-- The first line represents the number of Santa Claus Expresses that are going to
+1. The first line represents the number of Santa Claus Expresses that are going to
     the green region.
-- The second line will give the capacities of each of these trains.
-- The third line represents the number of Santa Claus Expresses that are going to
+2. The second line will give the capacities of each of these trains.
+3. The third line represents the number of Santa Claus Expresses that are going to
     the red region.
-- The fourth line will give the capacities of each of these trains.
-- The fifth line represents the number of Santa Claus’s reindeers that are going to
+4. The fourth line will give the capacities of each of these trains.
+5. The fifth line represents the number of Santa Claus’s reindeers that are going to
     the green region.
-- The sixth line will give the capacities of each of these reindeers.
-- The seventh line represents the number of Santa Claus’s reindeers that are going
+6. The sixth line will give the capacities of each of these reindeers.
+7. The seventh line represents the number of Santa Claus’s reindeers that are going
     to the red region.
-- The eighth line will give the capacities of each of these reindeers.
-- The ninth line represents the number of bags.
-- The tenth line will give the type of bags and the number of gifts in them.
+8. The eighth line will give the capacities of each of these reindeers.
+9. The ninth line represents the number of bags.
+10. The tenth line will give the type of bags and the number of gifts in them.
 
 
 ### Output
