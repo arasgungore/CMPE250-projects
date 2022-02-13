@@ -55,7 +55,7 @@ s <id> <name> <duration> <rating>
 ```
 There are 5 parts which are single-space separated in a line for a student.
 The first part, the letter s, is the student indicator. The second part, <id>,
-is the student id. The third part, <name>, is the name of the student. The
+is the student id. The third part, \<name\>, is the name of the student. The
 fourth part, <duration>, is the duration as the number of semesters that
 the student will study at the University of Datalonya. For example, if the
 duration is 3, then this student will graduate after 3 semesters. Of course,
