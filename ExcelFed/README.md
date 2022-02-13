@@ -1,9 +1,10 @@
 # Project 2: ExcelFed
 
 
+
 ## Introduction
 
-Heraclitus once said “The only constant in life is change”. Heraclitus was a wise man, indeed,
+Heraclitus once said, “The only constant in life is change”. Heraclitus was a wise man, indeed,
 but he missed an exception: if you take CMPE 250, you solve a Discrete Event Simulation
 (DES) project!
 
@@ -27,55 +28,57 @@ simulated as follows:
 Note that in DES the only things that count are events and everything else is ignored. In
 the case of the customer, until 09:20 only 5 things happened. Additionally, the time progressed
 in a discrete fashion (i.e. jumped from one event to the next one).
-In this project, you are expected to simulate training procedure of ExcelFed,
+In this project, you are expected to simulate the training procedure of ExcelFed,
 which is a tennis club founded by his excellency
 
-## Details of the ExcelFed
+
+
+## Details
 
 Do you know his excellency? This is not even a question, everyone knows him. Yes, I am talking
 about Roger Federer who is the best tennis player ever! He has decided to retire since he is
 not young enough to continue his career. However, he wants to transfer his great experience to
-the new generation. That’s why, he has founded ExcelFed.
-Roger is very experienced so he knows almost everything that plays a huge role in the devel-
-opment of the tennis player. He has already hired great nutritionists and chefs. Additionally,
-he has a consulting team consists of Rafael Nadal and Novak Djokovic. Furthermore, he has
-rent nice tennis courts. His aim is to train children in very good conditions so that there are
+the new generation. That’s why he has founded ExcelFed.
+Roger is very experienced so he knows almost everything that plays a huge role in the development
+of the tennis player. He has already hired great nutritionists and chefs. Additionally,
+he has a consulting team consisting of Rafael Nadal and Novak Djokovic. Furthermore, he has
+rented nice tennis courts. He aims to train children in very good conditions so that there are
 better tennis players.
 There is one “little” problem though. He needs great training coaches, masseurs, and
 physiotherapists but he does not know how many he needs. He may hire many staffs but this
 would be a waste of money and there are not many outstanding staffs. Therefore, he decided
-to simulate the training procedure of ExcelFed with fictional players and staffs to
+to simulate the training procedure of ExcelFed with fictional players and staff to
 find how many of them would be enough. However, his relationship with simulation tools
 and coding is terrible so he needs your help! Let Roger provide more detail.
 
-- There might be multiple training coaches, masseurs and physiotherapists depending on
+- There might be multiple training coaches, masseurs, and physiotherapists depending on
     the simulation configuration. In this case, every physiotherapist has his/her own service
     time and training, and massage duration depending on the player’s need.
 - There are exactly three queues in the system: one for training, one for massage and one
-    for physiotherapy. So, each coach sharesa common queueand similar for the others.
-- The training queue works in first-come-first-served fashion. Thus, the first player to
+    for physiotherapy. So, each coach shares a common queue and is similar to the others.
+- The training queue works in a first-come-first-served fashion. Thus, the first player to
     enter the queue is served before the others. If two players arrive at the same time, the
-    one with the lower ID is served first. When the training of the player isfinished, he/she
-    enters the physiotherapy queue,immediately.
-- Since more training time requires more urgent rehabilitation, physiotherapy queue works
-    in a prioritized manner. Therefore, in this queue,the more the training time, the
-    higher the priority. If there are more than one player that have the same training
+    one with the lower ID is served first. When the training of the player is finished, he/she
+    enters the physiotherapy queue, immediately.
+- Since more training time requires more urgent rehabilitation, the physiotherapy queue works
+    in a prioritized manner. Therefore, in this queue, the more the training time, the
+    higher the priority. If there is more than one player that has the same training
     time, then the one that arrived earlier is served before. If they arrived at the same time
     as well, then the one with the lower ID is served first. Note that, one player may come
     to the training more than one time, for the prioritization, you should consider only the
     current training time not the cumulative.
 - Because massage is an advanced service, players should deserve them by their skills.
-    Hence, in the massage queue,the higher the skill level, the earlier the service. If
-    there are more than one player that are in the same skill level, then the one that arrived
+    Hence, in the massage queue, the higher the skill level, the earlier the service. If
+    there is more than one player that is in the same skill level, then the one that arrived
     earlier is served before. If they arrived at the same time as well, then the one with the
-    lower ID is served first
+    lower ID is served first.
 - For all of the services, players visit the first available staff for the service (the available
     staff with the smallest ID) when they leave the queue.
-- Each player is allowed to take at most 3 massage service. Hence, whenever a player
+- Each player is allowed to take at most 3 massage services. Hence, whenever a player
     attempts to enter the massage queue 4th time, this is called an “invalid attempt”.
 - Since it is hard for the players to estimate how much time they spend in the queues,
     there could be some cases such that players may try to come to the training or massage
-    when they are already in the training, physiotherapy or massage process. These attempts
+    when they are already in the training, physiotherapy, or massage process. These attempts
     should be “canceled” so they are called “canceled attempts”.
 - One can enter the physiotherapy queue only after the training, no direct entrance is
     possible.
@@ -86,19 +89,20 @@ the training, should also be triggered by the simulation. Roger Federer expects 
 the training procedure of ExcelFed using these external and internal discrete events and collect
 some statistics.
 
+
+
 ## Input/Output
+
 
 ### Input
 
 Roger provides all simulation configuration files in the following format:
 
 - The first line contains an integer N that denotes the total number of players in ExcelFed.
-- Each of the next N line contains two integer: the ID of the player and his/her skill level.
+- Each of the next N lines contains two integers: the ID of the player and his/her skill level.
     These players will be given in sorted order by ID.
 - The next line is the line of an integer A that denotes the total number of arrival to the
     training and massage.
-
-
 - Each of the next A lines contains a character At denoting the type of arrival (either
     “m” (massage) or “t” (training)), an integer denoting the ID of the player, the second T
     that denotes the arrival time, and d duration of the process. These events will not be
@@ -109,12 +113,13 @@ Roger provides all simulation configuration files in the following format:
 - The last line contains two integers: Sc that denotes the number of training coaches and
     Sm that denotes the number of masseurs.
 
+
 ### Output
 
 Roger needs you to collect the following statistics to evaluate the configuration and output
-them in separate lines, in the order they are given. Please round the statistics toexactly 3
-decimal points. In case you cannot report any of the following 15 statistics, print -2for each
-of them in order to adhere the output format.
+them in separate lines, in the order they are given. Please round the statistics to exactly 3
+decimal points. In case you cannot report any of the following 15 statistics, print -2 for each
+of them to adhere to the output format.
 
 1. Maximum length of the training queue.
 2. Maximum length of the physiotherapy queue.
