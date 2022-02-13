@@ -85,12 +85,12 @@ According to the legend, if they can’t get together, Mecnun will disappear.
 
 ### Output
 
-1. For each case there will be two lines of output. The first line will be list1 and the second
+- For each case there will be two lines of output. The first line will be list1 and the second
     line will be int1.
-2. List1, Mecnun’s path of reaching Leyla (if he cannot reach -1 should be written) should
+- List1, Mecnun’s path of reaching Leyla (if he cannot reach -1 should be written) should
     be written.
-3. Int1, the tax paid on the Honeymoon route if it is possible. (If Leyla and Mecnun don’t
+- Int1, the tax paid on the Honeymoon route if it is possible. (If Leyla and Mecnun don’t
     marry -1 should be written but if they did not find a suitable honeymoon route -2 should
     be written.)
-4. If there is more than one possible output for a test case, you can use any. The program
+- If there is more than one possible output for a test case, you can use any. The program
     used for grading will test their accuracy.
