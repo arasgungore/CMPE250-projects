@@ -144,8 +144,3 @@ is no player that took three massage services, print -1 for both.
 13. Total number of invalid attempts to get a message service.
 14. Total number of canceled attempts including both training and massage attempts.
 15. Total seconds passed during the whole simulation.
-
-Nadal also showed the courtesy to share the expected output for the input in Table 2 with
-explanations. He also showed the progress of queues and services in Table 3 where the numbers
-in the parenthesis in the “service” columns represent the number of remaining seconds to finish
-the process.
