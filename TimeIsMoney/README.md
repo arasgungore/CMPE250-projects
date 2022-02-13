@@ -48,7 +48,7 @@ maximize the profit of the factory. In this project, you are asked to calculate 
 profit that the company can achieve in this case by looking at the order list given to you by
 the factory engineer.
 
-## 2 Details
+## Details
 
 - For each case, output consists of one integer, int1. It is is the maximum profit that the
     factory can gain after machine A and machine B are banned and new machine starts to
