@@ -28,7 +28,7 @@ who cannot stay at any house.
 
 
 
-## Input/Output Format
+## Input/Output
 
 
 ### Input
