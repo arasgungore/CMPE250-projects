@@ -36,9 +36,7 @@ related to spanning-tree subject in CMPE 250, and please keep in mind that they 
 travel with minimum cost. Let’s help these lovers with our CMPE 250 knowledge on finding
 the minimum-cost spanning-tree (MST) for the honeymoon part.
 
-```
 According to the legend, if they can’t get together, Mecnun will disappear.
-```
 
 ## Details
 
