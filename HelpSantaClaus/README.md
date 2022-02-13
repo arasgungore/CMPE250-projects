@@ -24,12 +24,12 @@ Our gifts are in the bags, and we should distribute them to trains and reindeers
 according to the properties of the bag. You can consider that the same type of gifts is in
 the same bag, and we want to distribute them properly.
 Properties of bags are as follow, remark that one bag has more than one property
-- a. Each of the gifts in this bag type should be distributed through different vehicles,
+- a: Each of the gifts in this bag type should be distributed through different vehicles,
 i.e. there are no 2 gifts from the same bag on the same train or reindeer.
-- b. Each of the gifts in this bag type should only be distributed to green regions.
-- c. Each of the gifts in this bag type should only be distributed to red regions.
-- d. Each of the gifts in this bag type should only be distributed by train.
-- e. Each of the gifts in this bag type should only be distributed by reindeer.
+- b: Each of the gifts in this bag type should only be distributed to green regions.
+- c: Each of the gifts in this bag type should only be distributed to red regions.
+- d: Each of the gifts in this bag type should only be distributed by train.
+- e: Each of the gifts in this bag type should only be distributed by reindeer.
 If it’s not specified, assume that gifts can be distributed to all regions, both by train
 and reindeer.
 
