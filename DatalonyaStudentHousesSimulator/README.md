@@ -1,4 +1,4 @@
-# Project 1: Datalonya Student Houses
+# Project 1: Datalonya Student Houses Simulator
 
 
 
