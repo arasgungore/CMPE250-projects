@@ -22,24 +22,24 @@ Our gifts are in the bags, and we should distribute them to trains and reindeers
 according to the properties of the bag. You can consider that the same type of gifts is in
 the same bag, and we want to distribute them properly.
 Properties of bags are as follow, remark that one bag has more than one property
-a. Each of the gifts in this bag type should be distributed through different vehicles,
+- a. Each of the gifts in this bag type should be distributed through different vehicles,
 i.e. there are no 2 gifts from the same bag on the same train or reindeer.
-b. Each of the gifts in this bag type should only be distributed to green regions.
-c. Each of the gifts in this bag type should only be distributed to red regions.
-d. Each of the gifts in this bag type should only be distributed by train.
-e. Each of the gifts in this bag type should only be distributed by reindeer.
+- b. Each of the gifts in this bag type should only be distributed to green regions.
+- c. Each of the gifts in this bag type should only be distributed to red regions.
+- d. Each of the gifts in this bag type should only be distributed by train.
+- e. Each of the gifts in this bag type should only be distributed by reindeer.
 If it’s not specified, assume that gifts can be distributed to all regions, and both by train
 and reindeer.
 
 Let’s look at some examples of bag types.
-o bd can be distributed only by trains which go to green regions
-o ace can be distributed only by reindeers which go to red regions and there are
+- bd can be distributed only by trains which go to green regions
+- ace can be distributed only by reindeers which go to red regions and there are
 no 2 gifts from this bag on the same reindeer
-o c can be distributed only to red regions, both by trains and reindeers
-o d can be distributed only by trains, to both the red and the green regions
-o a only constraint is that there are no 2 gifts from this bag on the same vehicle
-o bc invalid, it won’t be given as an input to you because it is a contradictory
-o de invalid, it won’t be given as an input to you because it is a contradictory
+- c can be distributed only to red regions, both by trains and reindeers
+- d can be distributed only by trains, to both the red and the green regions
+- a only constraint is that there are no 2 gifts from this bag on the same vehicle
+- bc invalid, it won’t be given as an input to you because it is a contradictory
+- de invalid, it won’t be given as an input to you because it is a contradictory
 
 
 ## Input/Output
