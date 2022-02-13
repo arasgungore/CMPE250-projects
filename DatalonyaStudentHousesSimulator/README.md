@@ -6,8 +6,7 @@
 The University of Datalonya offers houses for the students. All houses
 are for one student only. But they can be in various conditions: old, new,
 needs renovation, broken oven, broken shower, new kitchen, new bed etc.
-According to these conditions each house has a rating point between 0 and
-10.
+According to these conditions each house has a rating point between 0 and 10.
 Students study at the university up to 8 semesters. If they are located
 at a house, they stay until graduation. But each student has his/her own
 criterion on house selection. This criterion is a threshold on the house’s
@@ -21,8 +20,8 @@ The current list of houses and students are transferred to you. From now on,
 you are responsible for the allocation of the houses.
 
 
-You are supposed to arrange the lists of houses and students in collec-
-tions of your choice and simulate the allocations until all students in the list
+You are supposed to arrange the lists of houses and students in collections
+of your choice and simulate the allocations until all students in the list
 graduate. In your simulation, check for matching houses and students at
 every new semester. The output of your simulation is the list of students
 who cannot stay at any house.
@@ -38,26 +37,26 @@ data.
 A typical line for a house is like this:
 
 ```
-h<id><duration><rating>
+h <id> <duration> <rating>
 ```
 There are 4 parts which are single-space separated in a line for a house.
-The first part, the letter h, is the house indicator. The second part,<id>,
-is the id of the house. The third part,<duration>, is the duration as the
+The first part, the letter h, is the house indicator. The second part, <id>,
+is the id of the house. The third part, <duration>, is the duration as the
 number of semesters that the house is full. If the duration is 3, then this
-house will be available after 3 semesters. The last part,<rating>, is the
+house will be available after 3 semesters. The last part, <rating>, is the
 rating which shows the good or bad condition of the house.
 A typical line for a student is like this:
 
 ```
-s<id><name><duration><rating>
+s <id> <name> <duration> <rating>
 ```
 There are 5 parts which are single-space separated in a line for a student.
-The first part, the letter s, is the student indicator. The second part,<id>,
-is the student id. The third part,<name>, is the name of the student. The
-fourth part,<duration>, is the duration as the number of semesters that
+The first part, the letter s, is the student indicator. The second part, <id>,
+is the student id. The third part, <name>, is the name of the student. The
+fourth part, <duration>, is the duration as the number of semesters that
 the student will study at the University of Datalonya. For example, if the
 duration is 3, then this student will graduate after 3 semesters. Of course,
-max duration can be 8 for a student. The last part,<rating>, is the rating
+max duration can be 8 for a student. The last part, <rating>, is the rating
 which shows the minimum rating criterion of the student to accept a house.
 For example, if the rating parameter for a student is 3.2, then this student
 can only stay at houses with rating equal to or greater than 3.2.
