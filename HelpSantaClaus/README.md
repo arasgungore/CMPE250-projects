@@ -68,5 +68,5 @@ no 2 gifts from this bag on the same reindeer
 
 ### Output
 
-- For each test case, there will be one line output that gives the minimum possible
+1. For each test case, there will be one line output that gives the minimum possible
     number of gifts **that can’t** be distributed.
