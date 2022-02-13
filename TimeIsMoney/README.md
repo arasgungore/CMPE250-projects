@@ -72,11 +72,11 @@ the factory engineer.
 
 ### Input
 
-- The first line represents the type of products respectively.
-- The second line represents the processing times of the products on machine A respectively.
-- The third line represents the processing times of the products on machine B respectively.
-- The fourth line represents the profit gained by the factory by processing products respectively.
-- The fifth line represents the receiving times of each product according to the signed
+1. The first line represents the type of products respectively.
+2. The second line represents the processing times of the products on machine A respectively.
+3. The third line represents the processing times of the products on machine B respectively.
+4. The fourth line represents the profit gained by the factory by processing products respectively.
+5. The fifth line represents the receiving times of each product according to the signed
     contract.
 
 
