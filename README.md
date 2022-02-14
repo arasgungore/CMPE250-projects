@@ -6,15 +6,15 @@ Java projects assigned for the Data Structures and Algorithms (CMPE 250) course 
 
 ## Projects
 
-[Project 1: Datalonya Student Houses Simulator](DatalonyaStudentHousesSimulator/README.md)
+[Project 1: Datalonya Student Houses Simulator](DatalonyaStudentHousesSimulator)
 
-[Project 2: ExcelFed](ExcelFed/README.md)
+[Project 2: ExcelFed](ExcelFed)
 
-[Project 3: A Love Story](LoveStory/README.md)
+[Project 3: A Love Story](LoveStory)
 
-[Project 4: Help the Santa Claus!](HelpSantaClaus/README.md)
+[Project 4: Help the Santa Claus!](HelpSantaClaus)
 
-[Project 5: Time is Money](TimeIsMoney/README.md)
+[Project 5: Time is Money](TimeIsMoney)
 
 
 
