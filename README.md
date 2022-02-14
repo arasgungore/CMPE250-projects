@@ -1,6 +1,6 @@
 # cmpe250-projects
 
-Five Java projects assigned for the Data Structures and Algorithms (CMPE 250) course on Fall 2021-22 semester. The projects respectively apply data structures and related algorithms to real-world problems such as discrete event simulation using priority queues, Dijkstra's shortest path algorithm, Prim's algorithm to find the minimum spanning tree (MST), Dinic's algorithm for maximum flow problems, and weighted job scheduling with dynamic programming.
+Five Java projects assigned for the Data Structures and Algorithms (CMPE 250) course on Fall 2021-22 semester. The projects implement DS&A concepts to real-world problems such as discrete event simulation using priority queues, Dijkstra's shortest path algorithm, Prim's algorithm to find the minimum spanning tree (MST), Dinic's algorithm for maximum flow problems, and weighted job scheduling with dynamic programming.
 
 
 
