@@ -151,5 +151,5 @@ is no player that took three massage services, print -1 for both.
 
 ```sh
 javac src/*.java -d bin --release 16
-java -cp bin project2main ./testcases/input_1.txt output_1.txt
+java -cp bin project2main testcases/input_1.txt output_1.txt
 ```
