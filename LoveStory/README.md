@@ -94,3 +94,12 @@ According to the legend, if they can’t get together, Mecnun will disappear.
     be written.)
 - If there is more than one possible output for a test case, you can use any. The program
     used for grading will test their accuracy.
+
+
+
+## Run on terminal
+
+```sh
+javac src/*.java -d bin --release 16
+java -cp bin project3main ./testcases/input_1.txt output_1.txt
+```
