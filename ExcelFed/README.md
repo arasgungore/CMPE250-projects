@@ -144,3 +144,12 @@ is no player that took three massage services, print -1 for both.
 13. Total number of invalid attempts to get a message service.
 14. Total number of canceled attempts including both training and massage attempts.
 15. Total seconds passed during the whole simulation.
+
+
+
+## Run on terminal
+
+```sh
+javac src/*.java -d bin --release 16
+java -cp bin project2main ./testcases/input_1.txt output_1.txt
+```
