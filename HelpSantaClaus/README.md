@@ -78,5 +78,5 @@ no 2 gifts from this bag on the same reindeer.
 
 ```sh
 javac src/*.java -d bin --release 16
-java -cp bin project4main ./testcases/input_1.txt output_1.txt
+java -cp bin project4main testcases/input_1.txt output_1.txt
 ```
