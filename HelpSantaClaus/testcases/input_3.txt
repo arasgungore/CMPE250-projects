@@ -1,0 +1,10 @@
+26
+21 1 9 6 4 15 20 15 10 15 18 3 10 22 1 15 23 15 23 7 0 12 22 11 13 18 
+14
+2 23 20 12 16 17 10 7 9 23 23 22 13 0 
+8
+14 24 16 18 16 11 19 7 
+32
+0 17 1 17 14 3 13 1 10 17 23 0 10 2 5 0 21 4 13 16 20 23 21 20 21 16 24 10 20 21 13 4 
+60
+acd 7 d 17 ace 26 abe 4 ae 20 ad 14 be 31 cd 20 ad 21 d 34 ab 9 ae 14 ae 26 abd 12 ae 10 ace 9 d 23 ac 34 cd 2 acd 28 e 29 ae 17 abd 25 ae 8 ae 5 cd 17 a 21 ace 11 e 13 d 10 ab 9 abd 19 e 12 bd 30 cd 1 ae 11 c 12 cd 33 d 28 ace 33 ab 19 c 7 ae 12 b 29 ce 6 acd 18 ac 4 be 15 e 1 abd 31 ce 34 ad 10 abd 13 be 14 acd 30 d 14 abe 20 ab 17 ad 16 bd 22 
