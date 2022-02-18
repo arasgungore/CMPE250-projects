@@ -71,3 +71,12 @@ no 2 gifts from this bag on the same reindeer.
 
 1. For each test case, there will be one line output that gives the minimum possible
     number of gifts **that can’t** be distributed.
+
+
+
+## Run on terminal
+
+```sh
+javac src/*.java -d bin --release 16
+java -cp bin project4main ./testcases/input_1.txt output_1.txt
+```
