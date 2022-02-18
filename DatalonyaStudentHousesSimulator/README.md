@@ -79,3 +79,12 @@ output of your program is the list of students that couldn’t stay at any of
 the houses. You should create a .txt file and print one student's name at a
 line. The output student list must be in ascending order of student id but
 only names will be printed in the output file.
+
+
+
+## Run on terminal
+
+```sh
+javac src/*.java -d bin --release 16
+java -cp bin project1main ./testcases/input_1.txt output_1.txt
+```
