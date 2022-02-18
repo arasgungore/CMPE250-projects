@@ -83,3 +83,12 @@ the factory engineer.
 ### Output
 
 1. An integer representing the potential maximum profit of the factory.
+
+
+
+## Run on terminal
+
+```sh
+javac src/*.java -d bin --release 16
+java -cp bin project5main ./testcases/input_1.txt output_1.txt
+```
