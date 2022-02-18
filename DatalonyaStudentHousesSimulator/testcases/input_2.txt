@@ -1,0 +1,100 @@
+h 29 5 3.6
+s 37 Taner2 0 2.2
+h 32 0 3.8
+s 19 Fulya0 0 7.5
+h 39 5 6.8
+s 9 Fulya 4 0.8
+h 12 5 8.0
+h 18 0 3.6
+s 14 Selim0 2 2.5
+h 2 6 1.7
+h 35 0 3.1
+h 20 0 9.1
+s 26 Seda1 3 2.2
+h 11 0 9.6
+h 10 2 2.1
+h 33 0 7.9
+s 15 Demet0 7 5.6
+s 0 Ali 6 5.0
+s 32 Melis2 0 3.6
+s 25 Demet1 5 6.2
+s 8 Duygu 8 5.8
+s 24 Selim1 0 7.3
+s 43 Hakan3 6 8.7
+s 21 Veli1 2 8.3
+s 49 Fulya3 3 3.9
+s 36 Seda2 3 4.9
+s 29 Fulya1 1 6.4
+s 38 Duygu2 7 7.1
+h 41 0 1.5
+h 48 0 7.4
+s 12 Melis0 6 5.8
+h 15 4 4.9
+h 30 0 6.1
+h 47 0 6.7
+s 48 Duygu3 3 6.5
+s 1 Veli 2 0.8
+s 42 Melis3 5 2.8
+h 37 0 1.0
+s 31 Veli2 3 0.3
+h 16 0 7.3
+h 31 0 1.5
+h 17 0 1.1
+h 42 2 7.3
+h 5 0 9.1
+s 3 Hakan 6 7.6
+h 0 1 1.2
+h 23 0 3.9
+s 5 Demet 6 9.8
+s 40 Ali2 5 4.5
+s 4 Selim 2 5.3
+s 2 Melis 0 3.2
+s 39 Fulya2 6 1.1
+h 4 0 1.5
+h 25 1 8.0
+s 16 Seda0 3 4.1
+s 6 Seda 4 7.2
+h 1 4 1.0
+h 45 3 6.0
+h 22 0 6.2
+h 34 6 3.2
+h 3 0 6.4
+s 46 Seda3 1 7.6
+h 13 2 3.8
+h 9 2 9.3
+h 8 3 5.2
+h 19 0 4.7
+s 13 Hakan0 7 4.9
+s 17 Taner0 0 6.7
+h 46 0 0.1
+h 36 0 7.7
+h 44 6 4.3
+s 44 Selim3 7 0.8
+h 43 6 9.8
+s 22 Melis1 1 1.7
+h 6 0 4.1
+h 28 0 0.9
+s 45 Demet3 5 1.5
+s 30 Ali1 7 0.0
+h 14 0 0.1
+s 23 Hakan1 8 6.9
+h 26 3 6.1
+h 49 8 9.9
+s 20 Ali0 7 6.4
+h 24 8 3.7
+h 21 6 8.5
+s 28 Duygu1 6 5.1
+s 47 Taner3 6 5.3
+s 10 Ali 7 2.1
+h 40 0 7.9
+h 38 0 4.0
+h 7 0 1.8
+s 7 Taner 2 0.0
+s 34 Selim2 8 1.0
+s 41 Veli3 7 9.6
+s 18 Duygu0 1 8.2
+h 27 8 3.0
+s 33 Hakan2 3 2.5
+s 27 Taner1 7 6.8
+s 35 Demet2 2 0.9
+s 11 Veli0 0 9.1
