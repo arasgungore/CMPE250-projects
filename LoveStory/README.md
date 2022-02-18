@@ -101,5 +101,5 @@ According to the legend, if they can’t get together, Mecnun will disappear.
 
 ```sh
 javac src/*.java -d bin --release 16
-java -cp bin project3main ./testcases/input_1.txt output_1.txt
+java -cp bin project3main testcases/input_1.txt output_1.txt
 ```
