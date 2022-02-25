@@ -97,7 +97,7 @@ According to the legend, if they can’t get together, Mecnun will disappear.
 
 
 
-## Run on terminal
+## Run on Terminal
 
 ```sh
 javac src/*.java -d bin --release 16
