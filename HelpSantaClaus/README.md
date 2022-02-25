@@ -74,7 +74,7 @@ no 2 gifts from this bag on the same reindeer.
 
 
 
-## Run on terminal
+## Run on Terminal
 
 ```sh
 javac src/*.java -d bin --release 16
