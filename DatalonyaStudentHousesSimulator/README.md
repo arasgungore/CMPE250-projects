@@ -82,7 +82,7 @@ only names will be printed in the output file.
 
 
 
-## Run on terminal
+## Run on Terminal
 
 ```sh
 javac src/*.java -d bin --release 16
