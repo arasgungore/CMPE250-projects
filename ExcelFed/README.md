@@ -147,7 +147,7 @@ is no player that took three massage services, print -1 for both.
 
 
 
-## Run on terminal
+## Run on Terminal
 
 ```sh
 javac src/*.java -d bin --release 16
