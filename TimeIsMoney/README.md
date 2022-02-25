@@ -86,7 +86,7 @@ the factory engineer.
 
 
 
-## Run on terminal
+## Run on Terminal
 
 ```sh
 javac src/*.java -d bin --release 16
