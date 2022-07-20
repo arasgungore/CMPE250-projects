@@ -2,6 +2,15 @@
 
 
 
+## Run on Terminal
+
+```sh
+javac src/*.java -d bin --release 16
+java -cp bin project5main testcases/input_1.txt output_1.txt
+```
+
+
+
 ## Introduction
 
 “The time is the most valuable thing.” -Vinay Chhabra & Manish Dewan. Time is much more
@@ -83,12 +92,3 @@ the factory engineer.
 ### Output
 
 1. An integer representing the potential maximum profit of the factory.
-
-
-
-## Run on Terminal
-
-```sh
-javac src/*.java -d bin --release 16
-java -cp bin project5main testcases/input_1.txt output_1.txt
-```
