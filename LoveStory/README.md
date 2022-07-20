@@ -2,6 +2,15 @@
 
 
 
+## Run on Terminal
+
+```sh
+javac src/*.java -d bin --release 16
+java -cp bin project3main testcases/input_1.txt output_1.txt
+```
+
+
+
 ## Introduction
 
 As Shakespeare once said “I am to wait, though waiting so be hell...”, it is an obvious fact that
@@ -94,12 +103,3 @@ According to the legend, if they can’t get together, Mecnun will disappear.
     be written.)
 - If there is more than one possible output for a test case, you can use any. The program
     used for grading will test their accuracy.
-
-
-
-## Run on Terminal
-
-```sh
-javac src/*.java -d bin --release 16
-java -cp bin project3main testcases/input_1.txt output_1.txt
-```
