@@ -1,5 +1,7 @@
 # Project 4: Help the Santa Claus!
 
+This project was assigned for the Data Structures and Algorithms (CMPE 250) course in the Fall 2021-22 semester.
+
 
 
 ## Run on Terminal
